@@ -1,0 +1,21 @@
+query Articles {
+	article {
+		id
+		created_at
+		content
+		is_published
+		title
+		updated_at
+	}
+}
+
+query ArticleByPk($id: uuid!) {
+	article_by_pk(id: $id) {
+		content
+		created_at
+		id
+		is_published
+		title
+		updated_at
+	}
+}

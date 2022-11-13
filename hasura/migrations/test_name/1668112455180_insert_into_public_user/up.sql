@@ -1,0 +1,1 @@
+INSERT INTO "public"."user"("id", "name", "created_at", "update_at_custom") VALUES (E'f4eb1f35-1cae-43b5-bcd1-4db228679a23', E'Josh', E'2022-11-10T20:34:15.141682+00:00', E'2022-11-10T20:34:15.141682');
